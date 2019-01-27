@@ -11,7 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+html, body {background: #181818; font-family: 'Cormorant', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
 
 .clear {clear: both;}
 
@@ -38,14 +38,14 @@ p {
 #name h1 {
 	font-size: 2.5em;
 	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Cormorant', Helvetica, Arial, sans-serif;
 	margin-bottom: -6px;
 }
 
 #name h2 {
 	font-size: 2em;
 	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Cormorant', Helvetica, Arial, sans-serif;
 }
 
 #mainArea {
@@ -122,14 +122,18 @@ section:last-child {
 	width: 72.5%;
 }
 
+.sectionContent h3 {
+	margin-top: 3px;
+}
+
 .sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Cormorant', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	color: #485F7E;
 }
 
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Cormorant', Helvetica, Arial, sans-serif;
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
@@ -137,7 +141,7 @@ section:last-child {
 .subDetails {
 	font-size: 0.8em;
 	font-style: italic;
-	margin-bottom: 3px;
+	margin: 5px 0px;
 }
 
 .keySkills {
